@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="profile" href="http://gmpg.org/xfn/11">-->
+<link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+<title>Who is Zeki Müren?</title>
+
+<link rel='stylesheet' id='zekimurenhotline-style-css'  href='includes/stylesheet.css' type='text/css' media='all' />
+</head>
+
+<body class="home page page-id-24 page-template page-template-page_gallery page-template-page_gallery-php">
+
+<div id="page" class="site">
+    
+    <div id="startButton"></div>
+    
+    <div id="optin"></div>
+    
+    <div id="quote"></div>
+
+	<header id="masthead" class="site-header" role="banner">
+		
+        <div class="site-branding"></div>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+						
+            <div id="main_menu">
+			    <div id="aboutButton" class='button'>
+			        ABOUT
+			    </div>
+			</div>
+			
+			<div id="lang" class="button">
+				EN  |  TR
+			</div>
+			
+			<div id="sharelabel" class="">
+				SHARE
+			</div>
+
+			<div id="shareicons">
+			    <img src="uploads/facebook.png"> <img src="uploads/twitter.png">
+			</div>
+			
+			
+		</nav>
+	</header>
+
+	<div id="content" class="site-content">
+
+	<div id="primary" class="content-area">
+		<main id="main" class="site-main" role="main">
+
+			<div id="slides">
+
+			    	<div id="slide1"  class="slide parallax2" data-thumbnail="uploads/1-thumbnail.jpg" data-id="1" data-audio="" data-name="Gazino Story"> 
+				    <div class="parallax2bg" style='background-image:url("uploads/1-background-1-v2.jpg")'>
+                    </div>
+				    <div class="parallax2left">
+							 <img src='uploads/1-foreground-1-1-v2.png'>
+				    </div>
+                    <div class="parallax2right">
+							 <img src='uploads/1-foreground-2-1-v2.png'>
+				    </div>
+                    </div>
+            </div>
+            
+            <div id="idoc-title">AN INTERACTIVE DOCUMENTARY</div>
+            
+<div class="fullscreen-bg2">          
+<video class="fullscreen-bg-video docVid" id="myVid" width="320" height="240" autoplay>
+  <source src="video/Sun-of-Turkish-Music.mp4" type="video/mp4">
+  <!--<source src="movie.ogg" type="video/ogg">--> <!--You should make an OGG version as well. There are free sites to convert-->
+Your browser does not support the video tag.
+</video>
+</div>
+
+<div class="fullscreen-bg">  
+<video class="fullscreen-bg-video"  id="funeralVid">
+  <source src="video/ZM_funeral_edited.mp4" type="video/mp4">
+</video>
+</div>
+        
+            <div id="static"></div>
+            <div id="outfitImage"></div>
+            <div id="gladiatorImage"></div>
+            <div id="catImage"></div>
+            <!--<div id="blackCover"></div>-->
+            <div id="endImage"></div>
+				
+		</main>
+	</div>
+        
+<form name="mainscreen" onkeypress = "if(event.keyCode == 13) {mainroutine();return false}">
+
+<div id="botBoxes">  
+<table id="inputsContainer" align="center" style="position:fixed;bottom:20px;">
+<tr>
+<td>
+
+<div>
+<div id="zekiAvatar"></div>
+<div id="zekiBotBox">
+<textarea readonly id="ZekiTalks" name="BasicTextArea1" rows="5" cols="40"></textarea>
+</div>
+</div>  
+
+<div id="userBox">
+<p id="protoHint">Prototype Hints: 1. yes/maybe/no 2. wow, show me more 3. why not take to the streets? 4. i do</p>
+<textarea id="Usertalks" name="BasicTextArea4" rows="1" cols="75"></textarea><br />
+</div>
+    
+</td>
+</tr>
+</table>
+</div>
+
+<p align = "center">
+<br /><br /><br /><br /><br /><br
+ /><br /><br /><br />
+<textarea name="BasicTextArea2"  style="visibility:collapse; padding:0; margin:0"></textarea ><br />
+<textarea name="BasicTextArea3"  style="visibility:collapse; padding:0; margin:0" ></textarea ><br />
+</p>
+</form>
+
+
+	</div>
+
+</div>
+
+
+<audio id="backgroundMusic" preload="auto" loop>
+    <source src="audio/ZM_BuYagmur.mp3" type="audio/mpeg">
+</audio>
+
+    
+<!--global function-->    
+<script type='text/javascript'>
+    function triggerBot(){startConvo();}
+</script>
+    
+<script type='text/javascript' src='plugins/jquery-updater/jquery-3.1.0.min.js'></script>
+<script type='text/javascript' src='js/greensock-js/TweenMax.min.js'></script>
+<script type='text/javascript' src='js/zekimurenhotline.js'></script>
+<script type="text/javascript" src="js/apprise-v2.js"></script>
+<script type='text/javascript' src='js/botai.js'></script>
+
+</body>
+</html>
